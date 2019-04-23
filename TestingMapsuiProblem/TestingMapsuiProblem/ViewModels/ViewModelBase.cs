@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestingMapsuiIssue.ViewModels
+namespace TestingMapsuiProblem.ViewModels
 {
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible
     {

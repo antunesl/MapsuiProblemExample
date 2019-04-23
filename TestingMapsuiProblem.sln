@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingMapsuiProblem", "TestingMapsuiProblem\TestingMapsuiProblem\TestingMapsuiProblem.csproj", "{7D506FE7-36BE-4130-B5CD-0D7613E8BDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingMapsuiProblem.Android", "TestingMapsuiProblem\TestingMapsuiProblem.Android\TestingMapsuiProblem.Android.csproj", "{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D506FE7-36BE-4130-B5CD-0D7613E8BDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D506FE7-36BE-4130-B5CD-0D7613E8BDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D506FE7-36BE-4130-B5CD-0D7613E8BDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D506FE7-36BE-4130-B5CD-0D7613E8BDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF8C71B-3522-4DC2-A912-C17469CB9BC6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A901CCBB-7A6C-4C03-831B-F947AC19E251}
+	EndGlobalSection
+EndGlobal

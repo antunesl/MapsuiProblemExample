@@ -4,9 +4,9 @@ using Android.OS;
 using Prism;
 using Prism.Ioc;
 
-namespace TestingMapsuiIssue.Droid
+namespace TestingMapsuiProblem.Droid
 {
-    [Activity(Label = "TestingMapsuiIssue", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "TestingMapsuiProblem", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

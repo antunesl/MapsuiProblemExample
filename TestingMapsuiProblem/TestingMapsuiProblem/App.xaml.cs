@@ -1,12 +1,12 @@
 ﻿using Prism;
 using Prism.Ioc;
-using TestingMapsuiIssue.ViewModels;
-using TestingMapsuiIssue.Views;
+using TestingMapsuiProblem.ViewModels;
+using TestingMapsuiProblem.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace TestingMapsuiIssue
+namespace TestingMapsuiProblem
 {
     public partial class App
     {
@@ -30,7 +30,7 @@ namespace TestingMapsuiIssue
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<TestingNavigation, TestingNavigationViewModel>();
+            containerRegistry.RegisterForNavigation<DetailService, DetailServiceViewModel>();
         }
     }
 }
